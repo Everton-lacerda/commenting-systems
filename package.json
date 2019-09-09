@@ -4,7 +4,9 @@
   "description": "Sistema de comentário",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.ja" 
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/Everton-lacerda/commenting-systems/issues"
   },
-  "homepage": "https://github.com/Everton-lacerda/commenting-systems#readme"
+  "homepage": "https://github.com/Everton-lacerda/commenting-systems#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
 }
